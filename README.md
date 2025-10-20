@@ -1,5 +1,6 @@
 const nomes = ["Anny", "Levi", "Mary", "Analua", "Tiana"];
-console.log("== NOMES ==");
+
+console.log("== Nomes ==");
 nomes.forEach(function(nome, index) {
     console.log(`${index + 1}. ${nome}`);
 });
