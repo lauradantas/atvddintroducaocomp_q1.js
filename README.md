@@ -1,10 +1,6 @@
-const nomes = ["Anny", "Levi", "Mary", "Analua", "Tiana"];
+const nomes = ["Ana", "João", "Maria", "Pedro", "Carla"];
 
-console.log("== Nomes ==");
-nomes.forEach(function(nome, index) {
-    console.log(`${index + 1}. ${nome}`);
-});
-console.log("\n== NOMES ==");
+console.log("=== Lista de Nomes ===");
 nomes.forEach((nome, index) => {
-    console.log(`Posição ${index}: ${nome}`);
+    console.log(`${index + 1}. ${nome}`);
 });
